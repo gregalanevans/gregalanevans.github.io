@@ -1,0 +1,403 @@
+/*html {
+        font-family: 'Arvo', serif;
+        font-size: 48px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+}*/
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+
+.navselectors {
+
+	font-family: 'Indie Flower', cursive;
+	
+}
+
+.navbar-inverse {
+	background-color: transparent;
+	border: none;
+}
+
+
+
+
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+@media (max-width: 1000px) {
+	.navbar-inverse .navbar-brand {
+	    font-size: 20px;
+	}
+	#topbanner {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 780px) {
+	.navbar-inverse .navbar-brand {
+	    font-size: 15px;
+	}
+
+	#topbanner {
+		font-size: 15px;
+	}
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-size: 15px;
+}
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     /*background-size: cover;
+     background: url(img/coworking.jpg) center center no-repeat;*/
+     text-align: center;
+     font-family: 'Indie Flower', cursive;
+}
+
+
+
+header {
+	background-color: black;
+	margin: 0 auto;
+	padding: 25px 0;
+	position: sticky;
+    top: 0;
+    z-index: 100000000;
+    height: 40px;
+}
+
+
+#topbanner {
+	background-color: black;
+	margin-top: 0px;
+    margin-bottom: 0px;
+	padding: 20px 0;
+	border-top: 3px solid;
+	border-top-color: white;
+	border-bottom: 3px solid;
+	border-bottom-color: white;
+	text-align: center;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+}
+
+#h21 {
+	background-color: #1f1f1f;
+	margin: 0 auto;
+	padding: 25px 0;
+	border-top: 3px solid;
+	border-top-color: black;
+	border-bottom: 3px solid;
+	border-top-color: black;
+	text-align: center;
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.autoplay {
+	display: inline-block;
+	width: auto;
+	/*height: 100vh;*/
+}
+
+.slick-slide img {
+	height: auto;
+	width: 100vw;
+	height: 100vh;
+}
+
+.slick-slider {
+	display: inline-block;
+	width: 100vw;
+}
+
+.my-slider, .my-slider div{
+  height:100vh;
+
+}
+
+
+.my-slider button {
+  display:none;
+}
+
+
+
+#home {
+	 width: 100%;
+     background: url(../images/india7.jpg) center center no-repeat;
+     background-size: cover;
+     height: 100vh;
+}
+
+/*AFRICA*/
+
+#africa {
+	 width: 100%;
+     background: url(../images/africa5.jpg) center center no-repeat;
+     background-size: cover;
+     height: 100vh;
+     position: relative;
+}
+
+#slideafrica1 {
+	background:url(../images/africa6.jpg) no-repeat center center;
+    background-size:cover;
+}
+
+#slideafrica2 {
+	background: url(../images/africa2.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#slideafrica3 {
+	background: url(../images/africa3.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#slideafrica4 {
+	background: url(../images/africa7.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/*INDIA*/
+
+#india {
+	width: 100%;
+     background: url(../images/india8.jpg) center center no-repeat;
+     background-size: cover;
+     height: 100vh;
+     position: relative;
+}
+
+#slideindia1 {
+	background:url(../images/inida5.jpg) no-repeat center center;
+    background-size:cover;
+}
+
+#slideindia2 {
+	background: url(../images/india2.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#slideindia3 {
+	background: url(../images/india3.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#slideindia4 {
+	background: url(../images/india4.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+
+/*SEASIA*/
+
+#seasia {
+	width: 100%;
+     background: url(../images/seasia4.jpg) center center no-repeat;
+     background-size: cover;
+     height: 100vh;
+     position: relative;
+}
+
+#seasia1 {
+	background:url(../images/seasia5.jpg) no-repeat center center;
+    background-size:cover;
+}
+
+#seasia2 {
+	background: url(../images/seasia2.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#seasia3 {
+	background: url(../images/seasia3.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#seasia4 {
+	background: url(../images/seasia6.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/*SRILANKA*/
+
+#srilanka {
+	width: 100%;
+     background: url(../images/srilanka7.jpg) center center no-repeat;
+     background-size: cover;
+     height: 100vh;
+     position: relative;
+}
+
+#srilanka1 {
+	background:url(../images/srilanka1.jpg) no-repeat center center;
+    background-size:cover;
+}
+
+#srilanka2 {
+	background: url(../images/srilanka2.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#srilanka3 {
+	background: url(../images/srilanka3.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#srilanka4 {
+	background: url(../images/srilanka4.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/*JAPAN*/
+
+#japan {
+	width: 100%;
+     background: url(../images/japan1.jpg) center center no-repeat;
+     background-size: cover;
+     height: 100vh;
+     position: relative;
+}
+
+#japan1 {
+	background:url(../images/japan5.jpg) no-repeat center center;
+    background-size:cover;
+}
+
+#japan2 {
+	background: url(../images/japan2.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#japan3 {
+	background: url(../images/japan3.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#japan4 {
+	background: url(../images/japan4.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+
+#h22 {
+	width: 300px;
+	height: 525px;
+	float: right;
+	clear: both;
+	background: rgba(255,255,255,0.7);
+	margin-top: 25px;
+	margin-right: 25px;
+}
+
+#h22 p {
+	font-size: 20px;
+	text-align: left;
+	margin-left: 5px;
+	padding-right: 5px;
+}
+
+#h22 h2 {
+	font-size: 33px;
+}
+
+.button1 {
+	color: black;
+	background: yellow;
+	font-weight: bold;
+	width: 250px;
+	height: 50px;
+	border-radius: 8px;
+	font-size: 19px;
+
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    border-bottom: 2px black solid;
+
+}
+
+footer ul li {
+ padding-top: 30px;
+ display: inline-block;
+ list-style: none;
+ margin: 0 26px 25px;
+}
+
+/*page2*/
+
+
+
+#home2 {
+	 width: 100%;
+     background: url(../images/waterfall.jpg) center center no-repeat;
+     background-size: cover;
+     height: 100vh;
+}
+
+.holder {
+  position:relative;
+  overflow:hidden;
+  width:300px;
+}
+.holder img {
+  display:block;
+}
+.info {
+  position:absolute;
+  width:100%;
+  background:rgba(0,0,0,0.5);
+  bottom:-40px;
+  opacity:0;
+  transition:bottom 0.3s, opacity 0.3s;
+}
+.holder:hover .info {
+  bottom:0;
+  opacity:1;
+}
+
+#ndpage {
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
